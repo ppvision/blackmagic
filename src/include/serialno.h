@@ -22,7 +22,7 @@
 #define INCLUDE_SERIALNO_H
 
 #ifndef DFU_SERIAL_LENGTH
-#define DFU_SERIAL_LENGTH
+#define DFU_SERIAL_LENGTH   13
 #endif
 
 extern char serial_no[DFU_SERIAL_LENGTH];

@@ -23,6 +23,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "general.h"
+#include "serialno.h"
 #include "platform.h"
 #include <libopencm3/stm32/desig.h>
 

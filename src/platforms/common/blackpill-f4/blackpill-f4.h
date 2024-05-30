@@ -145,9 +145,10 @@ extern bool debug_bmp;
 		SWDIO_MODE_REG = mode_reg;              \
 	} while (0)
 
+#if 0
 #define TRST_PORT PINOUT_SWITCH(GPIOA, GPIOB)
 #define TRST_PIN  PINOUT_SWITCH(GPIO6, GPIO3)
-
+#endif
 #define NRST_PORT PINOUT_SWITCH(GPIOA, GPIOB)
 #define NRST_PIN  PINOUT_SWITCH(GPIO5, GPIO4)
 
@@ -157,13 +158,13 @@ extern bool debug_bmp;
 #define USER_BUTTON_KEY_PORT GPIOA
 #define USER_BUTTON_KEY_PIN  GPIO0
 
-#define LED_PORT       GPIOC
+#define LED_PORT       GPIOB //
 #define LED_IDLE_RUN   GPIO13
 #define LED_ERROR      GPIO14
 #define LED_BOOTLOADER GPIO15
 
-#define LED_PORT_UART GPIOA
-#define LED_UART      PINOUT_SWITCH(GPIO4, GPIO1)
+#define LED_PORT_UART GPIOC
+#define LED_UART      PINOUT_SWITCH(GPIO13, GPIO1)
 
 /* SPI2: PB12/13/14/15 to external chips */
 #define EXT_SPI         SPI2
