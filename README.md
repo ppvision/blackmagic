@@ -1,6 +1,6 @@
 # Black Magic Probe
 
-![image](docs/IMG-0737.png)
+![image](docs/IMG_0737.png)
 
 ## 如何编译
 
