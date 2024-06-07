@@ -5,6 +5,7 @@
 ## 如何编译
 
 ```shell
+make -C deps/libopencm3
 mkdir build
 cd build
 cmake ..

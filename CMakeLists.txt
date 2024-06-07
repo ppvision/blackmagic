@@ -56,7 +56,6 @@ include_directories(
         config
         src/include
         src/target
-        src/libopencm3/include
         src/platforms/common/blackpill-f4
         src/platforms/blackpill-f411ce
         src/platforms/common
